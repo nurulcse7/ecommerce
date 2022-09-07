@@ -133,12 +133,12 @@ const Product = () => {
             tristique tortor pretium ut. Curabitur elit justo, consequat id
             condimentum ac, volutpat ornare.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>$20</Price>
           <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
-              <FilterColor color="black" />
-              <FilterColor color="darkblue" />
+              <FilterColor color="lightblue" />
+              <FilterColor color="lightGreen" />
               <FilterColor color="gray" />
             </Filter>
             <Filter>
@@ -149,6 +149,7 @@ const Product = () => {
                 <FilterSizeOption>M</FilterSizeOption>
                 <FilterSizeOption>L</FilterSizeOption>
                 <FilterSizeOption>XL</FilterSizeOption>
+                <FilterSizeOption>XXL</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>
