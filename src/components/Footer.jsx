@@ -3,9 +3,9 @@ import {
   Instagram,
   MailOutline,
   Phone,
-  Pinterest,
   Room,
   Twitter,
+  WhatsApp,
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -88,24 +88,24 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>E-Commerce</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+        E-Commerce is one of the oldest and leading online stores in Bangladesh. <br />
+        <br />
+        Follow us: 
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
             <Facebook />
           </SocialIcon>
-          <SocialIcon color="E4405F">
+          <SocialIcon color="ED00ED">
             <Instagram />
           </SocialIcon>
           <SocialIcon color="55ACEE">
             <Twitter />
           </SocialIcon>
-          <SocialIcon color="E60023">
-            <Pinterest />
+          <SocialIcon color="00BE7C">
+            <WhatsApp />
           </SocialIcon>
         </SocialContainer>
       </Left>
@@ -113,27 +113,27 @@ const Footer = () => {
         <Title>Useful Links</Title>
         <List>
           <ListItem>Home</ListItem>
+          <ListItem>My Account</ListItem>
+          <ListItem>Order Tracking</ListItem>
           <ListItem>Cart</ListItem>
           <ListItem>Man Fashion</ListItem>
           <ListItem>Woman Fashion</ListItem>
           <ListItem>Accessories</ListItem>
-          <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
           <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
+          <ListItem>Privacy</ListItem>
+          <ListItem>Terms & Condition</ListItem>
         </List>
       </Center>
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/>NWJ-2/A Gulshan Dhaka-1212 BD
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{marginRight:"10px"}}/> +880 1601 915577
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> nurul.cse7@gmail.com 
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
